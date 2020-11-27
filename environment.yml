@@ -1,0 +1,22 @@
+name: sur-darts
+channels:
+- defaults
+- pytorch
+- conda-forge
+dependencies:
+- python>=3.8
+- jupyter
+- numpy>=1.15
+- scikit-learn
+- scipy>=1.0.0
+- seaborn>=0.9
+- pip>=20.0
+- pytorch>=1.5
+- torchaudio>=0.5
+- torchtext>=0.5
+- torchvision>=0.5
+- networkx
+- tqdm
+- pip:
+  - deepstruct>=0.7
+  - pygraphviz
